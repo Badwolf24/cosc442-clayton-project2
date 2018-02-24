@@ -3,6 +3,13 @@ package edu.towson.cis.cosc442.project2.vendingmachine;
 /**
  * Class for items in the vending machine
  */
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
 public class VendingMachineItem {
 
 	// The name of the item
